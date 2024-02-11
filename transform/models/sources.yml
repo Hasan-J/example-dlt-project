@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: mydata
+    database: mydata
+    schema: dlt_loader
+    tables:
+      - name: inventory
+      - name: movements

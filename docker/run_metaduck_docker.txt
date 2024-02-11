@@ -1,0 +1,1 @@
+docker run -v ${PWD}/mydata.duckdb:/data/duckdb/mydata.duckdb --name metaduck -d -p 80:3000 -m 2GB -e MB_PLUGINS_DIR=/home/plugins metaduck
